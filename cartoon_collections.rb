@@ -9,8 +9,8 @@ new_array
 end 
 
 def summon_captain_planet(planeteer_calls)
-    array.each do | array |
-    puts " #{array}!"
+    planeteer_calls.map do |x|
+    x.capitalize << "!"
 end
 
 def long_planeteer_calls(planeteer_calls)
