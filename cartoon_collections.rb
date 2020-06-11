@@ -3,7 +3,10 @@ def square_array(array)
  index = 0 
  while index <array.length do 
    new_array << array[index]*array[index]
+   index +=1 
 end
+new_array
+end 
 
 def summon_captain_planet(planeteer_calls)
   # Use an Enumerable to capitalize and add '!' to every element in the passed in array
